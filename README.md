@@ -1,4 +1,3 @@
-# PDFMeasureApp
-This code defines a Tkinter GUI application where users can select a PDF file and then 
-measure the number of pages as well as the dimensions of each page in pixels.
-When the "Measure" button is clicked, it displays a messagebox with the measurement information.
+# PDF Measurement Tool
+
+This Python application, built using the `fitz` and `PyPDF2` libraries along with `tkinter` for the graphical user interface, facilitates the measurement of PDF documents. Upon execution, users are prompted to select a PDF file for measurement. Once selected, the application calculates the total number of pages in the PDF and measures the dimensions (in pixels) of each page. The measured dimensions include width and height. After processing, the application displays a summary of the measurement results, including the total number of pages and the dimensions of each page. Error handling is implemented to manage scenarios such as invalid file selections or measurement failures. Users receive informative error messages in case of any issues encountered during the measurement process.
